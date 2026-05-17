@@ -7,8 +7,8 @@ CREATE TABLE IF NOT EXISTS app_user (
 
 CREATE TABLE IF NOT EXISTS route (
     id SERIAL PRIMARY KEY,
-    from_location TEXT NOT NULL,
-    to_location TEXT NOT NULL,
+    from_station TEXT NOT NULL,
+    to_station TEXT NOT NULL,
     leave_at TIME NOT NULL,
     arrive_by TIME NOT NULL,
     price INT NOT NULL
